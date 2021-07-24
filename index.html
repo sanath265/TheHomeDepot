@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>The Home Depot</title>
+        <link href="assets/styles/style.css" rel="stylesheet" type="text/css" />
+        <script src = "assets/scripts/app.js"></script>
+    </head>
+    <body>
+        <div class = "header" id="header">
+                <div class="inner">
+                    <ul class="logo">
+                        <li><img src="assets/img/lo.png"></li>
+                    </ul>
+                    <ul class="search">
+                        <li><input type="text"><button type="button" onclick="alert('Login to search')"><img src="assets/img/search.png"></button></li>  
+                    </ul>
+                 </div>
+                <div class = "log">                 
+                    <button onclick="alert('Page under construction')"><a href = "#">Login</a></button>
+                    </div>
+            </div>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="product.html" target="_blank">Mobiles</a></li>
+                    <li><a href="dummy.html" target="_blank">Tv & Appliances</a></li>
+                    <li><a href="dummy.html" target="_blank">Men</a></li>
+                    <li><a href="dummy.html" target="_blank">Women</a></li>
+                    <li><a href="dummy.html" target="_blank">Baby & kids</a></li>
+                    <li><a href="dummy.html"target="_blank">Home & Furnitures</a></li>
+                </ul>
+            </nav>
+                <div class="ss-container">
+                    <div class="mySlides fade">
+                        <a href="dummy.html">
+                        <img src="assets/img/img1.jpg" class="pics"/>
+                        </a>
+                    </div>
+                    <div class="mySlides fade">
+                        <a href="dummy.html">
+                        <img src="assets/img/img2.jpg" class="pics"/>
+                        </a>
+                    </div>
+                    <div class="mySlides fade">
+                        <a href="dummy.html">
+                        <img src="assets/img/img3.jpg" class="pics"/>
+                        </a>
+                    </div>
+                    <div class="mySlides fade">
+                        <a href="dummy.html">
+                        <img src="assets/img/img4.jpg" class="pics"/>
+                        </a>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <!--    Putting in the click dots   -->
+                <div class = "z" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+                <div class ="caution">
+                    <marquee direction="right">
+                        <h1>Due to covid-19 pandemic delivery of items will may take longer time than expected</h1>
+                    </marquee>
+                </div>
+                <div class ="details">
+                    <div class="inner">
+                        <div class = "deals">
+                            <ul>
+                                <li>Deals of the day</li>
+                                <li><img src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/timer_931251.svg"></li>
+                            </ul>
+                        
+                            <div id = "myTime" onload = "showTime()" class = "clock"></div>
+    
+                        </div>
+                        <ul>
+                            <li>
+                                <ul class = "outer-list">
+                                    <li><a href="dummy.html" target="_blank"><img src ="assets/img/earphones.jpeg"></a></li>
+                                    <li class="int"><a href="dummy.html" target="_blank">Headphones & speakers</a></li>
+                                    <li class="int-1"><a href="dummy.html" target="_blank">Upto 60% off</a></li>
+                                    <li class="int-2"><a href="dummy.html" target="_blank">sony, boat & more</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class = "outer-list">
+                                    <li><a href="dummy.html" target="_blank"><img src ="assets/img/shoe2.jpeg"></a></li>
+                                    <li class="int"><a href="dummy.html" target="_blank">shoes & more</a></li>
+                                    <li class="int-1"><a href="dummy.html" target="_blank">upto 40% off</a></li>
+                                    <li class="int-2"><a href="dummy.html" target="_blank">sparx, nike & more</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class = "outer-list">
+                                    <li><a href="dummy.html" target="_blank"><img src ="assets/img/watches.jpg"></a></li>
+                                    <li class="int"><a href="dummy.html" target="_blank">Men & Women watches</a></li>
+                                    <li class="int-1"><a href="dummy.html" target="_blank">Upto 30% off</a></li>
+                                    <li class="int-2"><a href="dummy.html" target="_blank">fastrack, sonata & more</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="outer-list">
+                                    <li><a href="dummy.html" target="_blank"><img src ="assets/img/flask.jpeg"></a></li>
+                                    <li class="int"><a href="dummy.html" target="_blank">Flasks & bottles</a></li>
+                                    <li class="int-1"><a href="dummy.html" target="_blank">From ₹149</a></li>
+                                    <li class="int-2"><a href="dummy.html" target="_blank">cello, milton & more</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class = "contact">
+                    <ul>
+                        <li class="inner-list">
+                            <ul>
+                                <li><h1>Home</h1></li>
+                                <li><a href="dummy.html">Contact us</a></li>
+                                <li><a href="dummy.html">About us</a></li>
+                                <li><a href="dummy.html">Careers</a></li>
+                                <li><a href="dummy.html">Press</a></li>
+                            </ul>
+                        </li>
+                        <li class="inner-list">
+                            <ul>
+                                <li><h1>Help</h1></li>
+                                <li><a href="dummy.html">Payments</a></li>
+                                <li><a href="dummy.html">Shipping</a></li>
+                                <li><a href="dummy.html">Cancellation and Returns</a></li>
+                                <li><a href="dummy.html">Report an issue</a></li>
+                            </ul>
+                        </li>
+                        <li class="inner-list">
+                            <ul>
+                                <li><h1>Policy</h1></li>
+                                <li><a href="dummy.html">Return Policy</a></li>
+                                <li><a href="dummy.html">Time of Use</a></li>
+                                <li><a href="dummy.html">Careers</a></li>
+                                <li><a href="dummy.html">Privacy</a></li>
+                            </ul>
+                        </li>
+                        <li class="inner-list">
+                            <ul>
+                                <li><h1>Mail us</h1></li>
+                                <li><p>support@thehomedepot.com</p></li>
+                            </ul>
+                        </li>
+                        <li class="inner-list">
+                            <ul>
+                                <li><h1>Registered ofice</h1></li>
+                                <li><p>175, Ost Road, Behind Metro Estate, Kalina,<br>bhd Ichibaan Honda Showroom, Santacruz(e)<br>Western Mumbai<br>Maharashtra<br>+91-02226502741<br>pin code:400098<br>India</p></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    </body>
+</html>
+<script src="assets/scripts/script.js"></script>
+<script src="assets/scripts/script1.js"></script>

@@ -1,0 +1,1211 @@
+body{
+    width: 100%;
+    margin: 0px auto;
+    background-color: #f1f3f6;
+}
+.header{
+    background-color: #2874f0;
+    height: 85px;
+    width: 100%;
+    display: table;
+    margin: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;   
+}
+.header .inner ul li{
+    float: left;
+    list-style-type: none;
+    padding-right: 250px;
+}
+.header .inner .logo img{
+    width: 75px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.header .inner .search  li button img{
+    width: 25px;
+    height: auto;
+}
+.header .inner .search {
+    padding-top:13px;
+}
+.header .inner .search  li button{
+    background-color:white;
+    border-color:white;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: transparent;
+}
+.header .inner .search li button:focus{
+    outline: none;
+}
+.header .inner .search li input[type=text] {
+    padding-bottom: 0px;
+    padding-top: 10.6px;
+    border: none;
+    font-size: 17px;
+    border-color: white;
+    padding-right: 50px;
+    
+}
+.header .inner .search li input[type=text]:focus{
+    outline: none;
+}
+.header .log button{
+    background-color: white;
+    border: none;
+    border-color: #2874f0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header .log button a{
+    text-decoration: none;
+    color: #0e9aa7;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+.log{
+    padding-top: 25px;
+    padding-right: 50px;
+}
+.header .log button:focus{
+    outline: none;
+}
+
+
+/*___________nav bar___________________*/
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    padding-right: 75px;
+    padding-left: 75px;
+    margin-top: 20px;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+nav ul li a{
+    list-style-type: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 650;
+    text-decoration: none;
+    transition: background 1s;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #2874f0;
+}
+/*________________image slider_____________________________________-*/
+#slide{
+	width:96%;
+	}
+.mySlides {
+	display: none;
+    margin-top: 5px;
+}
+
+.slideshow-container {
+	width: auto;
+	position: relative;
+	margin: -10px;
+    background-color: white;
+
+}
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: white;
+}
+/* Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+    margin-bottom: 5px;
+}
+.active, .dot:hover {
+	background-color: #494B55;
+}
+/* Fading animation */
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.pics
+{
+    border:3px solid #494B55;
+    width:99%;
+    height: 400px;
+    margin-left: 0.5%;
+    border-color: transparent;
+}
+/*________________text_______________________*/
+.caution marquee h1{
+    height: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: .5px;
+    word-spacing: 5px;
+}
+marquee{
+    z-index: -1;
+    position: relative;
+}
+.caution{
+    background-color: #f1f3f6;
+    z-index: -2;
+    position: relative;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+/*______________deals of the day heading_________________*/
+
+.details .inner .deals ul li{
+    float: left;
+    list-style-type: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 550;
+    font-family: 'Oswald', sans-serif;
+    padding-right: 25px;
+    letter-spacing: 0.1px;
+}
+.details .inner .deals ul li img{
+    width: 20px;
+    height: auto;
+}
+.details .inner .deals{
+    height:50px;
+    width: 100%;
+}
+.details .inner .clock{
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    padding-top: 0px;
+}
+/*______________deals___________________*/
+.details{
+    height: 100vh;
+    width: 98%;
+    display: table;
+    background-color: white;
+    margin-left: 1%;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.details .inner ul{
+    padding-top: 50px;
+}
+.details .inner ul li{
+    list-style-type: none;
+    line-height: 40px;
+    padding-right: 50px;
+    padding-left: 35px;
+    text-align: center;
+}
+.details .inner ul li img{
+    height: 200px;
+    width: 200px;
+}
+.outer-list{
+    float: left;
+    list-style-type: none;
+}
+.int a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.int{
+    margin-top: 20px;
+}
+.int-1 a{
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.int-2 a{
+    text-decoration: none;
+    color: #808080;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.outer-list li a img{
+    
+}
+.outer-list li a img:hover{
+    box-sizing: border-box;
+    transform: scale(1.2);
+    border: 10px solid #080808;
+    
+}
+/*_______________contact details_____________________*/
+.contact{
+    height:300px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #000000;
+    color: #212121;
+    line-height: 1.4;
+}
+.inner-list{
+    float: left;
+    list-style-type: none;
+}
+.contact ul li{
+    list-style-type: none;
+    padding-top:10px;
+}
+.inner-list ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 1.4px;
+}
+.inner-list ul li a:hover{
+    text-decoration: underline;
+}
+.inner-list ul li h1{
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif; 
+    color:#666;
+}
+.inner-list ul li p{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    
+}
+.contact ul li{
+    padding-right: 38px;
+}
+.vertical { 
+    border-left: 3px solid white; 
+    height: 200px; 
+    position: absolute;
+}
+/*____________________*/
+
+/*___________________________*/
+
+
+
+
+/* dummy.html_______________*/
+.dummy{
+    height: 625px;
+    width: 100%;
+    background-color: #ffc702;
+    background-image: url("download.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+        
+}
+.dummy img{
+    margin-left: 150px;
+}
+.dummy button a{
+    font-family: Arial,sans-serif;
+    font-size: 50px;
+    color: white;
+    color: white;
+    text-decoration: none;
+    
+}
+.dummy button{
+    background-color: #ffc702;
+    border: none;
+    border-color: #ffc702;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.dummy button a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/*____________products page____________________*/
+.products{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    margin-left: 1%;
+    padding-right: 1%;   
+}
+.products ul li{
+    list-style-type: none;
+}
+.products-list{
+    float: left;
+    list-style-type: none;
+}
+.products-list li{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+.products-list li a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif; 
+    text-decoration: none;
+    color: black;
+}
+.products-list li a:hover{
+    color:  #2874f0;
+}
+.products-list li a img{
+    max-width: 150px;
+    height: auto;
+    transition: background 1s;
+}
+.products-list li a img:hover{
+    transform: scale(1.05);
+}
+.outer-list-1{
+    float: left;
+    list-style-type: none;
+    padding-right: 85px;
+}
+.outer-list-1 li a img{
+    width:75px;
+    height: auto;
+    transition: background 1s;
+}
+.outer-list-1 li a img:hover{
+    box-sizing: border-box;
+    transform: scale(1.05);
+}
+.phones ul li{
+    list-style-type: none;
+    text-align: center;
+}
+.phones{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.outer-list-1 li{
+    padding-top: 25px;
+    text-align: center;
+}
+.int-1-3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.int-1-3{
+    margin-top: 20px;
+}
+.int-1-1 a{
+    text-decoration: none;
+    color: green;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.int-1-2 a{
+    text-decoration: none;
+    color: #808080;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.to{
+    margin-left: 600px;
+}
+.to button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #2874f0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: none;
+    border-color: transparent;
+    transition: background 0.2s;
+    font-family: 'Oswald', sans-serif;
+}
+.to button:focus{
+    outline: none;
+}
+.to button:hover{
+    background-color: white;
+    color: #2874f0;
+}
+.to button a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    transition: background 1s;
+}
+.to button a:hover{
+    color: #2874f0;
+}
+/*__________________iphone____________________*/
+.iphone{
+    height: 100vh;
+    width: 100%;
+}
+.main1{
+    float: left;
+    list-style-type: none;
+    padding-right: 50px;
+    background-color: white;
+    margin-left: 1%;
+    border-color: #DCDCDC;
+    border-style: solid;
+    border-width: 1px;
+    height: 100vh;
+}
+.main1 li ul{
+    list-style-type: none;
+}
+.main2 li{
+    float: left;
+    padding-right: 25px;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+.main2 li:last-child{
+    float: none;
+}
+.main3 li{
+    padding-top: 15px;
+}
+.a1{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.a2{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+.a3{
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300; 
+    color: #2874f0;
+}
+.a4{
+    color: #cf1b1b;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+.a5{
+    color: #cf1b1b;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+.a6{
+    color: #cf1b1b;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+.a7{
+    color: #cf1b1b;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+.main10 li{
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+.b li{
+    float: left;
+    padding-right: 15px;
+}
+.b{
+    float: left;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+.b1{
+    font-size: 16px;
+    background-color: #ff9f00;
+    color: white;
+    border-color: transparent;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.b1:focus,.b2:focus{
+    outline: none;
+}
+.b2{
+    font-size: 16px;
+    background-color: #fb641b;
+    color: white;
+    border-color: transparent;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.main1 li ul li img{
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.main11{
+    width: 50%;
+    float: left;
+    list-style-type: none;
+    padding-right: 50px;
+    background-color: white;
+    margin-right: 1%;
+    margin-left: 0.5%;
+}
+.main11 li ul{
+    list-style-type: none;
+}
+.main10 li{
+    
+    list-style-image: url('https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90')
+}
+
+
+
+
+@media (min-width:320px) and (max-width:374px){
+    .header{
+        background-color: #2874f0;
+        height: 85px;
+        width: 141%;
+        display: table;
+        margin: 0px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+}
+    .inner{
+        display: table-cell;
+        vertical-align: middle;   
+    }
+    .header .inner ul li{
+        float: left;
+        list-style-type: none;
+        padding-right: 5px;
+    }
+    .header .inner .logo img{
+        width: 50px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .header .inner .search  li button img{
+        width: 25px;
+        height: auto;
+    }
+    .header .inner .search {
+        padding-top:13px;
+        margin-left: 10px;
+        
+}
+    .header .inner .search  li button{
+        background-color:white;
+        border-color:white;
+        border-style: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: transparent;
+    }
+    .header .inner .search li button:focus{
+        outline: none;
+    }
+    .header .inner .search li input[type=text] {
+        padding-bottom: 0px;
+        padding-top: 10.6px;
+        border: none;
+        font-size: 17px;
+        border-color: white;
+        padding-right: 10px;
+
+    }
+    .header .inner .search li input[type=text]:focus{
+        outline: none;
+    }
+    .header .log button{
+    background-color: white;
+    border: none;
+    border-color: #2874f0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+    .header .log button a{
+        text-decoration: none;
+        color: #0e9aa7;
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+    }
+    .log{
+        padding-top: 30px;
+        
+    }
+    .header .log button:focus{
+        outline: none;
+    }
+    nav{
+        width: 140%;
+        height: 100px;
+    }
+    nav ul li{
+        padding-right: 40px;
+        padding-left: 0px;
+    }
+    .slideshow-container {
+	   width: 98%;
+    }
+    .pics{
+    width:140%;
+    height: 200px;
+    margin-left: 0.5%;
+    }
+    .prev,.next{
+        padding-top: 50px;
+    }
+    .prev{
+        margin-left: 10px;
+    }
+    .next{
+        margin-right: -130px;
+    }
+    .z{
+        margin-left: 140px;
+    }
+    .caution{
+        width: 140%;
+    }
+    .contact{
+        width: 140%;
+        height: 1000px;
+    }
+    .contact ul li{
+        margin-left: 35px;
+    }
+    /*______products______*/
+    .products{
+        width: 140%;
+        height: 700px;
+    }
+    .products-list li a img{
+        max-width: 100px;
+        height: auto;
+    }
+    .phones{
+        width: 140%;
+        height: 1050px;
+    }
+    .outer-list-1{
+        padding-right: 3px;
+        margin-left:-30px;
+    }
+    .outer-list-1 li a img{
+        width:75px;
+        height: auto;
+        transition: background 1s;
+        padding-top: 150px;
+    }
+    .to{
+    margin-left: 120px;
+    }
+    /*________dummy_________________*/
+    .dummy{
+        height: 625px;
+        width: 140%;
+        background-color: #ffc702;
+        background-image: url("download.webp");
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    .dummy button{
+        background-color: #ffc702;
+        border: none;
+        border-color: #ffc702;
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+    /*____________iphone______________*/
+    .main1{
+        width: 110%;
+        border-width: 1px;
+        height: 100vh;
+    }
+    .main1 li ul li img{
+        padding-left: 50px;
+    }
+    .b{
+        padding-left: 65px;
+    }
+    .b1,.b2{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .main11{
+        width: 110%;
+    }
+}
+/*________________________________________________________________________*/
+@media (min-width:375px) and (max-width:424px){
+    .header{
+        background-color: #2874f0;
+        height: 85px;
+        width: 141%;
+        display: table;
+        margin: 0px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+}
+    .inner{
+        display: table-cell;
+        vertical-align: middle;   
+    }
+    .header .inner ul li{
+        float: left;
+        list-style-type: none;
+        padding-right: 5px;
+    }
+    .header .inner .logo img{
+        width: 50px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .header .inner .search  li button img{
+        width: 25px;
+        height: auto;
+    }
+    .header .inner .search {
+        padding-top:13px;
+        margin-left: 10px;
+        
+}
+    .header .inner .search  li button{
+        background-color:white;
+        border-color:white;
+        border-style: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: transparent;
+    }
+    .header .inner .search li button:focus{
+        outline: none;
+    }
+    .header .inner .search li input[type=text] {
+        padding-bottom: 0px;
+        padding-top: 10.6px;
+        border: none;
+        font-size: 17px;
+        border-color: white;
+        padding-right: 10px;
+
+    }
+    .header .inner .search li input[type=text]:focus{
+        outline: none;
+    }
+    .header .log button{
+    background-color: white;
+    border: none;
+    border-color: #2874f0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+    .header .log button a{
+        text-decoration: none;
+        color: #0e9aa7;
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+    }
+    .log{
+        padding-top: 30px;
+        
+    }
+    .header .log button:focus{
+        outline: none;
+    }
+    nav{
+        width: 140%;
+        height: 100px;
+    }
+    nav ul li{
+        padding-right: 60px;
+        padding-left: 0px;
+    }
+    .slideshow-container {
+	   width: 98%;
+    }
+    .pics{
+        width:140%;
+        height: 200px;
+        margin-left: 0.5%;
+    }
+    .prev,.next{
+        padding-top: 0px;
+    }
+    .prev{
+        margin-left: 10px;
+    }
+    .next{
+        margin-right: -150px;
+    }
+    .z{
+        margin-left: 140px;
+    }
+    .details{
+        width: 140%;
+    }
+    .caution{
+        width: 140%;
+    }
+    .contact{
+        width: 140%;
+        height: 1000px;
+    }
+    .contact ul li{
+        margin-left: 35px;
+    }
+    /*______products______*/
+    .products{
+        width: 140%;
+        height: 600px;
+    }
+    .products-list li a img{
+        max-width: 100px;
+        height: auto;
+    }
+    .phones{
+        width: 140%;
+        height: 750px;
+    }
+    .outer-list-1{
+        padding-right: 1px;
+        margin-left: -15px;
+    }
+    .outer-list-1 li a img{
+        width:85px;
+        height: auto;
+        transition: background 1s;
+    }
+    .to{
+    margin-left: 120px;
+    }
+    /*________dummy_________________*/
+    .dummy{
+        height: 625px;
+        width: 140%;
+        background-color: #ffc702;
+        background-image: url("download.webp");
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    .dummy button{
+        background-color: #ffc702;
+        border: none;
+        border-color: #ffc702;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    /*____________iphone______________*/
+    .main1{
+        width: 114%;
+        border-width: 1px;
+        height: 100vh;
+    }
+    .main1 li ul li img{
+        padding-left: 50px;
+    }
+    .b{
+        padding-left: 65px;
+    }
+    .b1,.b2{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .main11{
+        width: 115%;
+    }
+}
+
+/*___________________________________________*/
+@media (min-width:425px) and (max-width:767px){
+    .header{
+        background-color: #2874f0;
+        height: 85px;
+        width: 141%;
+        display: table;
+        margin: 0px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+}
+    .inner{
+        display: table-cell;
+        vertical-align: middle;   
+    }
+    .header .inner ul li{
+        float: left;
+        list-style-type: none;
+        padding-right: 5px;
+    }
+    .header .inner .logo img{
+        width: 50px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .header .inner .search  li button img{
+        width: 25px;
+        height: auto;
+    }
+    .header .inner .search {
+        padding-top:13px;
+        margin-left: 10px;
+        
+}
+    .header .inner .search  li button{
+        background-color:white;
+        border-color:white;
+        border-style: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: transparent;
+    }
+    .header .inner .search li button:focus{
+        outline: none;
+    }
+    .header .inner .search li input[type=text] {
+        padding-bottom: 0px;
+        padding-top: 10.6px;
+        border: none;
+        font-size: 17px;
+        border-color: white;
+        padding-right: 10px;
+
+    }
+    .header .inner .search li input[type=text]:focus{
+        outline: none;
+    }
+    .header .log button{
+    background-color: white;
+    border: none;
+    border-color: #2874f0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+    .header .log button a{
+        text-decoration: none;
+        color: #0e9aa7;
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+    }
+    .log{
+        padding-top: 30px;
+        
+    }
+    .header .log button:focus{
+        outline: none;
+    }
+    nav{
+        width: 140%;
+        height: 100px;
+    }
+    nav ul li{
+        padding-right: 80px;
+        padding-left: 0px;
+    }
+    .slideshow-container {
+	   width: 98%;
+    }
+    .pics{
+        width:140%;
+        height: 200px;
+        margin-left: 0.5%;
+    }
+    .prev,.next{
+        padding-top: 0px;
+    }
+    .prev{
+        margin-left: 10px;
+    }
+    .next{
+        margin-right: -170px;
+    }
+    .z{
+        margin-left: 140px;
+    }
+    .details{
+        width: 140%;
+    }
+    .caution{
+        width: 140%;
+    }
+    .contact{
+        width: 140%;
+        height: 1000px;
+    }
+    .contact ul li{
+        margin-left: 35px;
+    }
+    /*______products______*/
+    .products{
+        width: 140%;
+        height: 600px;
+    }
+    .products-list li a img{
+        max-width: 100px;
+        height: auto;
+    }
+    .phones{
+        width: 140%;
+        height: 750px;
+    }
+    .outer-list-1{
+        padding-right: 1px;
+    }
+    .outer-list-1 li a img{
+        width:85px;
+        height: auto;
+        transition: background 1s;
+    }
+    .to{
+    margin-left: 190px;
+    }
+    /*________dummy_________________*/
+    .dummy{
+        height: 625px;
+        width: 140%;
+        background-color: #ffc702;
+        background-image: url("download.webp");
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    .dummy button{
+        background-color: #ffc702;
+        border: none;
+        border-color: #ffc702;
+        margin-left: 140px;
+        margin-top: 100px;
+    }
+    /*____________iphone______________*/
+    .main1{
+        width: 117%;
+        border-width: 1px;
+        height: 100vh;
+    }
+    .main1 li ul li img{
+        padding-left: 100px;
+    }
+    .b{
+        padding-left: 115px;
+    }
+    .b1,.b2{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .main11{
+        width: 117%;
+    }
+}
+
+
+
